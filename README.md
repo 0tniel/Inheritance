@@ -1,4 +1,34 @@
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance in Object-Oriented Programming</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin: 10px 0;
+        }
+        code {
+            display: block;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
 
@@ -21,6 +51,26 @@
         <li>Logical Hierarchy: Facilitates the creation of a natural class hierarchy.</li>
         <li>Polymorphism: Enables methods to be used interchangeably across classes.</li>
     </ul>
+
+    <h2>Example</h2>
+    <p>Here is a simple example of inheritance in C++:</p>
+    <code>
+class Animal {<br>
+    public:<br>
+        void eat() {<br>
+            std::cout << "This animal eats food." << std::endl;<br>
+        }<br>
+};<br>
+<br>
+class Dog : public Animal {<br>
+    public:<br>
+        void bark() {<br>
+            std::cout << "The dog barks." << std::endl;<br>
+        }<br>
+};<br>
+    </code>
+    <p>In this example, <strong>Dog</strong> is the derived class that inherits from the <strong>Animal</strong> base class.</p>
+
     <h1>Modes of Inheritance</h1>
 
     <h2>1. Public Mode</h2>
@@ -47,14 +97,4 @@
     <h2>1. Single Inheritance</h2>
     <p>In single inheritance, a class is allowed to inherit from only one class. This means one subclass is inherited by one base class only.</p>
 
-    <h2>2. Multiple Inheritance</h2>
-    <p>In multiple inheritance, a class can inherit from more than one class. This means one subclass is derived from multiple base classes.</p>
-
-    <h2>3. Multilevel Inheritance</h2>
-    <p>In multilevel inheritance, a derived class is created from another derived class, forming a chain of inheritance.</p>
-
-    <h2>4. Hierarchical Inheritance</h2>
-    <p>In this type of inheritance, more than one subclass is inherited from a single base class. This means multiple derived classes are created from a single base class.</p>
-
-</body>
-</html>
+    <h2>2.
