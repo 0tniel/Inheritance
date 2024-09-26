@@ -1,35 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inheritance in Object-Oriented Programming</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        h2 {
-            color: #34495e;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        ul {
-            margin: 10px 0;
-        }
-        code {
-            display: block;
-            background-color: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ddd;
-            margin: 10px 0;
-        }
-    </style>
-</head>
+
 <body>
 
     <h1>Inheritance in Object-Oriented Programming</h1>
