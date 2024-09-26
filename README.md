@@ -1,4 +1,3 @@
-# Inheritance
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,55 +45,6 @@
         <li>Logical Hierarchy: Facilitates the creation of a natural class hierarchy.</li>
         <li>Polymorphism: Enables methods to be used interchangeably across classes.</li>
     </ul>
-
-    <h2>Example</h2>
-    <p>Here is a simple example of inheritance in a programming context:</p>
-    <pre>
-class Animal {
-    void eat() {
-        System.out.println("This animal eats food.");
-    }
-}
-
-class Dog extends Animal {
-    void bark() {
-        System.out.println("The dog barks.");
-    }
-}
-    </pre>
-
-    <p>In this example, <strong>Dog</strong> is the derived class that inherits from the <strong>Animal</strong> base class.</p>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modes and Types of Inheritance</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        h2 {
-            color: #34495e;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        ul {
-            margin: 10px 0;
-        }
-    </style>
-</head>
-<body>
-
     <h1>Modes of Inheritance</h1>
 
     <h2>1. Public Mode</h2>
@@ -128,8 +78,7 @@ class Dog extends Animal {
     <p>In multilevel inheritance, a derived class is created from another derived class, forming a chain of inheritance.</p>
 
     <h2>4. Hierarchical Inheritance</h2>
-    <p>In hierarchical inheritance, more than one subclass is derived from a single base class. This means multiple derived classes share a common base class.</p>
+    <p>In this type of inheritance, more than one subclass is inherited from a single base class. This means multiple derived classes are created from a single base class.</p>
 
 </body>
 </html>
-
